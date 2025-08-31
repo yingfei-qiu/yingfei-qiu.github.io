@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>who is this woman?!</title>
+</head>
+<style>
+    *{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: rgb(255, 245, 245);
+    }
+    .introduction{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        /* align-items: flex-start; */
+        background-color: rgb(255, 224, 229);
+        width: 100%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
 
+    div img{
+        width: 30%;
+        margin-right: 20px;
+        margin-left: 20px;
+        background-color: rgb(255, 224, 229);
+
+    }
+    .greeting {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        border-left: 1px solid grey;
+        padding-left: 20px;
+        background-color: rgb(255, 224, 229);
+    }
+
+    .greeting h3{
+        margin: 5px 0 0 0; /* small spacing under h1 */
+        overflow-wrap: break-word;
+        line-height: 30px;
+        background-color: rgb(255, 224, 229);
+    }
+    .greeting p{
+        line-height: 30px;
+        background-color: rgb(255, 224, 229);
+    }
+    .greeting h1{
+        background-color: rgb(255, 224, 229);
+    }
+    .travel li{
+        list-style:lower-roman;
+        padding: 5px;
+    }
+
+      /* 16:9 responsive iframe */
+  .video-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 900px;   /* tweak as you like */
+    margin: 20px auto;  /* center on page */
+    aspect-ratio: 16 / 9;
+  }
+  .video-wrap iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+ 
+
+</style>
+<body>
+    <div class="introduction">
+        <img src="mypic.png">
+            <div class="greeting">
+                <h1>
+                    Hi there! 
+                </h1>
+                <h3>
+                    Not too sure why you wanna learn more about me but since you're here, LET'S GOO!!!
+                </h3>
+                <p>
+                    Hello! I am Yingfei and I LOVE TO TRAVEL! Or rather, I LOVE going on adventures with my loved ones because cmon, our best memories are made with the people we love. 
+                </p>
+            </div>
+
+    </div>
+    <div class="travel">
+        <h2>Could you guess where I took this lovely photo?</h2>
+        <h3>Here's some hints:</h3>
+        <ul>
+            <li>Famous movies such as Mission Impossible have been filmed here</li>
+            <li>The land of pizzas and gelato (my fav btw)</li>
+            <li>If you haven't guessed it already...are you okay?</li>
+        </ul>
+        <h3>Just watch this video if you haven't guessed it yet</h3>
+
+    </div>
+    <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/al5cfRa8Lj8
+          "
+          title="Italy Travel Video"
+          frameborder="0"
+          allow="autoplay; encrypted-media; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    
+    
+
+</body>
+</html>
